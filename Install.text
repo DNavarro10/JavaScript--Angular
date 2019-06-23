@@ -1,0 +1,8 @@
+Cli - adm de Angular. 
+web
+https://cli.angular.io/
+
+-- comandos --
+npm install -g @angular/cli
+
+ng new *nombre del proyecto
