@@ -6,3 +6,5 @@ https://cli.angular.io/
 npm install -g @angular/cli
 
 ng new *nombre del proyecto
+
+ng server - entorno
