@@ -1,18 +1,19 @@
-<div class="container">
-        <div class="jumbotron">
-          <h1>Welcome</h1>
-          <h2>Angular & Bootstrap Demo</h2>
-        </div>  <div class="panel panel-primary">
-          <div class="panel-heading">Status</div>
-          <div class="panel-body">
-            <h3>{{titulo}}</h3>
-            <hr>
-            <h4 class="panel-heading">{{listado}}</h4>
-            <ul class="list-group">
-                    <li class="list-group-item">First item</li>
-                    <li class="list-group-item">Second item</li>
-                    <li class="list-group-item">Third item</li>
-            </ul> 
-        </div>
-        </div>
+<div class="container col-md-6">
+ 
+    <div class="panel panel-primary">
+      <div class="panel-heading pt-2">Status</div>
+      <div class="panel-body">
+        <h3>{{titulo}}</h3>
+        <hr>
+        <h4 class="panel-heading">{{listado}}</h4>
+        <ul class="list-group">
+          <li class="list-group-item">First item</li>
+          <li class="list-group-item">Second item</li>
+          <li class="list-group-item">Third item</li>
+
+        </ul>
+        <button class="btn-primary" (click)="cambiarTitulo()">Cambiar titulo</button>
       </div>
+    </div>
+  
+</div>

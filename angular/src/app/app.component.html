@@ -1,7 +1,11 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div class="container">
-
-<video_juego></video_juego>
-
-<router-outlet></router-outlet>
+  <div class="justify-content-center">
+    <button class="btn-danger" *ngIf="mostrarLista" (click)="ocultarLista(false)">Ocultar</button>
+    <button class="btn-danger" *ngIf="!mostrarLista" (click)="ocultarLista(true)">Mostrar</button>
+    <video_juego **ngIf="mostrarLista"></video_juego>
+    
+    
+  </div>
+  <router-outlet></router-outlet>
 </div>

@@ -4,11 +4,13 @@ import { VideoJuegoComponent } from './video_juego/videoJuego.component';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { GeneradoPorcomandoComponent } from './generado-porcomando/generado-porcomando.component';
 
 @NgModule({
   declarations: [ //declaraciones se cargan los comoponentes
     AppComponent,
-    VideoJuegoComponent
+    VideoJuegoComponent,
+    GeneradoPorcomandoComponent
   ],
   imports: [
     BrowserModule,
