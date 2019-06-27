@@ -5,7 +5,9 @@
 
 Primeros pasos en angular.
 
-  *instalacion 
-  *componentes  
-  *estructuras  
-  *hooks  etc. 
+  * instalacion 
+  * componentes  
+  * estructuras  
+  * hooks 
+  ---
+Entre otras cosas mas. 
